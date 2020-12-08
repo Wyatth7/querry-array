@@ -4,12 +4,12 @@
  *
  * functionality: Takes a given string, and returns a new array of elements within 'arr' that include 'string'.
  */
-export const querryArr = (arr: string[], string: string): string[] => {
-  let newArr = arr.map((el) => {
-    if (el.includes(string)) {
+export const querryArr = (arr: string[], queryString: string): string[] => {
+  const newArr = arr.map((el) => {
+    if (el.includes(queryString)) {
       return el;
     }
-    return "";
+    return '';
   });
 
   const filteredArr = newArr.filter((el) => el.length > 0);
