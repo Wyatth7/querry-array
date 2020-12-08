@@ -25,4 +25,6 @@ const string = 'apples';
 const queriedArray = querryArr(array, string);
 
 console.log(queriedArray);
+
+// Output: ['apples']
 ```
