@@ -12,11 +12,15 @@ npm i query-array-with-strings-wh7
 
 In order for this method to function properly, both the array and string must be of type string.
 
+Upon completion, `querryArr()` will return an array of strings that match the given string parameter.
+
 ```
 import { querryArr } from "query-array-with-strings-wh7";
 
 const array = ['apples','banannas'];
 const string = 'apples';
 
-querryArr(array, string);
+const queriedArray = querryArr(array, string);
+
+console.log(queriedArray);
 ```
