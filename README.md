@@ -19,7 +19,7 @@ Upon completion, `querryArr()` will return an array of strings that match the gi
 ```
 import { querryArr } from "query-array-with-strings-wh7";
 
-const array = ['apples','banannas'];
+const array = ['apples','bananas'];
 const string = 'apples';
 
 const queriedArray = querryArr(array, string);
