@@ -1,6 +1,6 @@
 # querry-array
 
-Queries a string array with a given string
+Given an array of strings and a query string, `querryArr` returns an array of all strings within the given string array that include the given query string.
 
 # Installation
 
