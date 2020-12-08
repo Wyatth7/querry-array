@@ -8,11 +8,13 @@ Queries a string array with a given string
 npm i query-array-with-strings-wh7
 ```
 
-# Usage
+# Functionality
 
 In order for this method to function properly, both the array and string must be of type string.
 
 Upon completion, `querryArr()` will return an array of strings that match the given string parameter.
+
+# Usage
 
 ```
 import { querryArr } from "query-array-with-strings-wh7";
