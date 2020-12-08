@@ -1,0 +1,19 @@
+{
+  "name": "query-array-with-search-string",
+  "version": "1.0.0",
+  "description": "A package that queries an array for a given string, and returns an array with occurences of said string.",
+  "main": "index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "start": "lite-server index.html"
+  },
+  "author": "wyatth7",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
